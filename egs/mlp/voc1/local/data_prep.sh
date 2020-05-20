@@ -15,7 +15,7 @@ eval_set="eval"
 shuffle=false
 
 # shellcheck disable=SC1091
-. ../../../parse_options.sh || exit 1;
+. ../../../utils/parse_options.sh || exit 1;
 
 db_root=$1
 data_dir=$2
