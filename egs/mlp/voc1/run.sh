@@ -17,7 +17,7 @@ n_jobs=16      # number of parallel jobs in feature extraction
 conf=conf/multi_band_melgan.v1.yaml
 
 # directory path setting
-db_root=./wavsfiles # direcotry including wavfiles (MODIFY BY YOURSELF)
+db_root=./wavfiles # direcotry including wavfiles (MODIFY BY YOURSELF)
                           # each wav filename in the directory should be unique
                           # e.g.
                           # /path/to/database
